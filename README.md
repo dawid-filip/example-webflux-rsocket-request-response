@@ -48,6 +48,7 @@ When requesting http://localhost:8082/client/send/message/john` resource expect 
 </details>
 
 2. GET [http://localhost:8082/client/send/object-message/{message}](http://localhost:8082/client/send/object-message/{message}).
+
 When requesting http://localhost:8082/client/send/object-message/john` resource expect results similar as presented below:
 <details><summary>client</summary>
 
