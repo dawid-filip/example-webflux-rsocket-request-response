@@ -1,4 +1,4 @@
-package com.pl.df.examplewebfluxrsocket;
+package com.pl.df.lib;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

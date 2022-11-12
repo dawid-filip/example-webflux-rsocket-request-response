@@ -1,4 +1,4 @@
-package com.pl.df.examplewebfluxrsocket;
+package com.pl.df.client;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

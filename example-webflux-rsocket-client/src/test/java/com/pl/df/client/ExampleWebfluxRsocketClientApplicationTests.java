@@ -1,4 +1,4 @@
-package com.pl.df.examplewebfluxrsocket;
+package com.pl.df.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

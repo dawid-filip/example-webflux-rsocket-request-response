@@ -1,6 +1,6 @@
-package com.pl.df.examplewebfluxrsocket;
+package com.pl.df.server;
 
-import lombok.SneakyThrows;
+import com.pl.df.lib.Util;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,12 +9,7 @@ public class ExampleWebfluxRsocketServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ExampleWebfluxRsocketServerApplication.class, args);
-		waitTillKeyAction();
-	}
-
-	@SneakyThrows
-	public static void waitTillKeyAction() {
-		System.in.read();
+		Util.waitTillKeyAction();
 	}
 
 }
