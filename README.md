@@ -1,7 +1,7 @@
 ## example-webflux-rsocket-request-response
 Simple example of [RSocket](https://docs.spring.io/spring-framework/docs/current/reference/html/rsocket.html) *server* & *client* implementation with conjunction of [WebFlux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html).
 
-## How to run and test?
+## How to run and test
 Follow steps in order:
 1. Build `example-webflux-rsocket-lib` module and then,
 2. Run `example-webflux-rsocket-server` module, 
@@ -24,12 +24,12 @@ Once `server` and `client` are up and running you should see similar logs to thi
 ```
 </details>
 
-## Client API.
+## Client API
 
 Following APIs are exposed:
 1. GET [http://localhost:8082/client/send/message/{message}](http://localhost:8082/client/send/message/{message}).
 
-When requesting http://localhost:8082/client/send/message/john` resource expect results similar as presented below:
+When requesting `http://localhost:8082/client/send/message/john` resource expect results similar as presented below:
 <details><summary>client</summary>
 
 ```
@@ -49,7 +49,7 @@ When requesting http://localhost:8082/client/send/message/john` resource expect 
 
 2. GET [http://localhost:8082/client/send/object-message/{message}](http://localhost:8082/client/send/object-message/{message}).
 
-When requesting http://localhost:8082/client/send/object-message/john` resource expect results similar as presented below:
+When requesting `http://localhost:8082/client/send/object-message/john` resource expect results similar as presented below:
 <details><summary>client</summary>
 
 ```
